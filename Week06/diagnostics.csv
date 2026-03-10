@@ -1,7 +1,0 @@
-2026-02-17 18:16:01,ping,localhost,0.100,Success
-2026-02-17 18:16:10,nslookup,localhost,Not found,Failed
-2026-02-17 18:16:22,nslookup,www.google.com,142.250.139.106,Success
-2026-02-17 18:16:29,ifconfig,en0,a6:69:75:c8:d9:72 / 192.168.1.79,Captured
-2026-02-17 18:16:36,arp,local,8 devices,Captured
-2026-02-17 18:18:13,ping,192.168.1.69,N/A,Failed
-2026-02-17 18:18:17,arp,local,8 devices,Captured
