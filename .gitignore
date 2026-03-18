@@ -213,3 +213,7 @@ __marimo__/
 .LSOverride
 .Spotlight-V100
 .Trashes
+
+
+#DB
+*.db
