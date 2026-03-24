@@ -38,10 +38,7 @@ class SimpleScanner:
         for port in range(start_port, end_port+1):
             self.scan_port(port)
 
-    # TODO: Write display_results(self)
-    #   Print "Results for {self.target}:"
-    #   If self.open_ports is empty, print "  No open ports found."
-    #   Otherwise, print each port: "  Port {port}"
+
     def display_results(self):
         print(f"Results for {self.target}:")
         if len(self.open_ports) == 0: 
