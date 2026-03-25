@@ -66,6 +66,10 @@ Three problems: reporting system information using the `platform` module, compar
 ### Week 10 — SQLite Databases
 Three database-backed applications using `sqlite3`: a password vault with full CRUD, a login attempt tracker recording success/failure events, and a security audit log. The final question includes `unittest` tests for database queries.
 
+### Week 11 — Introduction to OOP
+
+Three classes built around familiar cybersecurity concepts. A `PortScanner` class wraps the Assignment 2 socket logic into an object that holds its own target and results. A `PasswordChecker` class evaluates passwords against a common-password list and three strength criteria (length, digit, special character), rating them as WEAK, MEDIUM, or STRONG. A `Finding` and `Report` class pair represents vulnerability reports, with filtering by severity and a formatted summary output.
+
 ---
 
 > All code is written in Python 3. No external dependencies required.
