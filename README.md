@@ -70,6 +70,10 @@ Three database-backed applications using `sqlite3`: a password vault with full C
 
 Three classes built around familiar cybersecurity concepts. A `PortScanner` class wraps the Assignment 2 socket logic into an object that holds its own target and results. A `PasswordChecker` class evaluates passwords against a common-password list and three strength criteria (length, digit, special character), rating them as WEAK, MEDIUM, or STRONG. A `Finding` and `Report` class pair represents vulnerability reports, with filtering by severity and a formatted summary output.
 
+### Week 12 — Inheritance, Polymorphism & Dunder Methods
+
+Built child classes that inherit from a shared Scanner parent class to scan ports and HTTP paths. Implemented PortScanner and HTTPScanner to reuse common functionality while adding specific behavior. Added dunder methods (__eq__, __lt__, __len__, __add__) to Finding and Report classes, enabling comparison, sorting, counting, and merging of objects.
+
 ---
 
 > All code is written in Python 3. No external dependencies required.
